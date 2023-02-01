@@ -11,8 +11,14 @@
         WindowStyle="None"
         MouseDown="Window_MouseDown"
         >
-
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                <GradientStop Color="#FFE63070" Offset="1"></GradientStop>
+                <GradientStop Color="#FFFE8704" Offset="0"></GradientStop>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border Height="490" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#100E19" ></Border>
         
     </Grid>
 </Window>
