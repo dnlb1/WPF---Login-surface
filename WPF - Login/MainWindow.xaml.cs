@@ -32,5 +32,10 @@ namespace WPF___Login
                 DragMove();
             }
         }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

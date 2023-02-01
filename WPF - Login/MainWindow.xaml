@@ -25,13 +25,14 @@
         <Border Height="490" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#100E19" ></Border>
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="49*"></ColumnDefinition>
+                <ColumnDefinition Width="49*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <StackPanel HorizontalAlignment="Left" Margin="0 0 0 60" VerticalAlignment="Center">
                 <Image Source="LoginPictures/Panda.png"></Image>
             </StackPanel>
-            <StackPanel Grid.Column="1" Margin="0 50 0 60">
+            <StackPanel Grid.Column="1" Margin="0 120 0 60">
                 <TextBlock Text="User Login" Margin="20" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily="{StaticResource PandaLogin}"></TextBlock>
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <materialDesign:PackIcon Kind="User" Width="25" Height="25" Foreground="White" ></materialDesign:PackIcon>
@@ -46,10 +47,15 @@
                 <StackPanel Margin="10" HorizontalAlignment="Center">
                     <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#D94448"
                             Background="#D94448" Foreground="White" ToolTip="Login" x:Name="btnLogin" Content="Login" Command="">
-                        
+
                     </Button>
                 </StackPanel>
 
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btnExit" Click="btnExit_Click">
+                    <materialDesign:PackIcon Kind="Close" Width="30" Height="30" Foreground="White"></materialDesign:PackIcon>
+                </Button>
             </StackPanel>
         </Grid>
     </Grid>
