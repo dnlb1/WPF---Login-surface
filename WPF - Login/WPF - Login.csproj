@@ -8,10 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\roraima.ttf" />
     <None Remove="LoginPictures\Panda.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Fonts\roraima.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="LoginPictures\Panda.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

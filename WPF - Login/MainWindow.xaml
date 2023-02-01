@@ -11,6 +11,9 @@
         WindowStyle="None"
         MouseDown="Window_MouseDown"
         >
+    <Window.Resources>
+        
+    </Window.Resources>
     <Grid>
         <Grid.Background>
             <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
