@@ -6,6 +6,10 @@
         xmlns:local="clr-namespace:WPF___Login"
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown"
         >
 
     <Grid>
