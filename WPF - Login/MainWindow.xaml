@@ -12,7 +12,7 @@
         MouseDown="Window_MouseDown"
         >
     <Window.Resources>
-        
+        <FontFamily x:Key="PandaLogin">/Fonts/#panda</FontFamily>
     </Window.Resources>
     <Grid>
         <Grid.Background>
@@ -31,7 +31,7 @@
                 <Image Source="LoginPictures/Panda.png"></Image>
             </StackPanel>
             <StackPanel Grid.Column="1" Margin="0 0 0 60">
-                <TextBlock Text="User Login" Margin="20" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily=""></TextBlock>
+                <TextBlock Text="User Login" Margin="20" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily="{StaticResource PandaLogin}"></TextBlock>
             </StackPanel>
         </Grid>
     </Grid>
