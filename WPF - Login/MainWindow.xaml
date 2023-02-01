@@ -19,6 +19,17 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Border Height="490" VerticalAlignment="Top" CornerRadius="0 0 180 0" Background="#100E19" ></Border>
-        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel HorizontalAlignment="Left" Margin="0 0 0 60" VerticalAlignment="Center">
+                <Image Source="LoginPictures/Panda.png"></Image>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="0 0 0 60">
+                <TextBlock Text="User Login" Margin="20" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily=""></TextBlock>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
